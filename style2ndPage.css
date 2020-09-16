@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+    padding: 0;
+    background-image: url("monke.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  header,
+  article {
+    background-color: rgba(73, 73, 73, 0.7);
+    padding: 8px;
+    color: black;
+    position: relative;
+  }
+  
+  h1 {
+    font-family: garamond;
+    text-align: center;
+    border: solid;
+    border-width: thin;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  
+  h2 {
+    text-align: center;
+    line-height: 16px;
+  }
+  
+  header {
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  
+  article {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    
+  }
+  
+  a {
+    text-decoration:  none;
+    font-family:  garamond;
+    display: block;
+  }
+  
+  a:visited {
+    color: black;
+  }
+  
+  button:hover {
+    background-color: black;
+    border: solid;
+    border-width: medium;
+  }
+  
+  .sideNav {
+    position: fixed;
+  }
+  
+  button {
+    background-color: #00000050;
+    color: white;
+    border: none;
+    text-decoration: serif;
+    font-size: 16px;
+    padding: 8px 24px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-radius: 4px;
+    width: 128px;
+  }
+  
+  footer {
+    background-color: #420a0a;
+    padding: 0px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    text-align: center;
+  }
